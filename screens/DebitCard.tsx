@@ -74,7 +74,7 @@ export class DebitCard extends React.Component<CustProps> {
           }}>
 
             {/* Credit Card Component with hide or show option */}
-            <View style={[Styles.defaultView, { position: 'absolute', marginTop: -(viewportWidth / 2 - 40) / 1.586, maxWidth: 500 }]}>
+            <View style={[Styles.defaultView, { position: 'absolute', marginTop: -((viewportWidth < viewportHeight ? viewportWidth : viewportHeight) / 2 - 40) / 1.586, maxWidth: 500 }]}>
               {/* Option to Hide or Show card details */}
               <View style={{ width: viewportWidth - 40, maxWidth: 500, backgroundColor: 'transparent', flexDirection: 'row', justifyContent: 'flex-end' }}>
 
