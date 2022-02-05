@@ -16,20 +16,31 @@ declare global {
 export type RootStackParamList = {
   Root: NavigatorScreenParams<RootTabParamList> | undefined;
   Modal: undefined;
-  NotFound: undefined;
+  SetSpendingLimit: undefined;
 };
 
 export type RootStackScreenProps<Screen extends keyof RootStackParamList> = NativeStackScreenProps<
   RootStackParamList,
   Screen
 >;
-
+// Nandha - Added additional values Tab Bar Names
 export type RootTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  DebitCard: undefined;
+  Payments: undefined;
+  Credit: undefined;
+  Profile: undefined;
 };
 
 export type RootTabScreenProps<Screen extends keyof RootTabParamList> = CompositeScreenProps<
   BottomTabScreenProps<RootTabParamList, Screen>,
   NativeStackScreenProps<RootStackParamList>
 >;
+
+
+//Nandha - Added custom properties for the classes
+export interface CustProps {
+  navigation: any,
+  store: any, //Redux Store
+  updateStore: any //Redux Reducer
+}
