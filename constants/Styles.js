@@ -9,6 +9,10 @@ export default StyleSheet.create({
     flex: 1,
     paddingTop: 35,
   },
+  viewCenterRow:{ 
+    flexDirection: 'row', 
+    alignItems: 'center' 
+  },
   defaultView: {
     backgroundColor: 'transparent'
   },

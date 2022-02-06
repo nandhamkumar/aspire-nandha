@@ -12,6 +12,7 @@
 // 7. Auto suggeted amounts, save button and the input text are all reusable components
 // 8. The suggested amounts can be udpated based on the API response in future as needed
 // 9. Enabled Keyboard avoiding save button to reduce additiona touches for the user
+// 10. Save button is greye out and disabled when amount is not entered or is 0
 import React from 'react';
 import { Dimensions, KeyboardAvoidingView, Platform } from 'react-native';
 import { connect } from 'react-redux';
@@ -66,7 +67,7 @@ export class SetSpendingLimit extends React.Component<CustProps> {
             <View style={{ flex: 1, paddingHorizontal: 20, paddingBottom: 20, alignSelf: 'stretch', marginTop: 30, justifyContent: 'space-between' }}>
 
               <View>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={Styles.viewCenterRow}>
                   <Ionicons name='speedometer-outline' size={20} />
                   <Text style={{ marginLeft: 10 }}>Set a weekly debit card spending limit</Text>
                 </View>
@@ -76,6 +77,7 @@ export class SetSpendingLimit extends React.Component<CustProps> {
                   value={_formatCurrency(parseFloat(card_limit), '')}
                   placeholder="Spending limit"
                   keyboard="numeric"
+                  testID='SetSpendingLimit.AmountInput'
                   onChangeText={(text: string) => { this.setState({ card_limit: text.replace(/,/g, '') }) }}
                 />
                 {/* Show validation error message if any */}
@@ -87,14 +89,14 @@ export class SetSpendingLimit extends React.Component<CustProps> {
                 <View style={[Styles.defaultView, { flexDirection: 'row', justifyContent: 'space-between', marginTop: 20, maxWidth: 500 }]}>
                   {suggestedAmounts.map((item, key) => {
                     return (
-                      <AmountButton key={key} value={item} onPress={(v: string) => this.setLimit(v)} />
+                      <AmountButton key={key} value={item} onPress={(v: string) => this.setLimit(v)} testID={'SetSpendingLimit.AmountButton' + key} />
                     )
                   })
                   }
                 </View>
               </View>
 
-              <Button text={'Save'} onPress={() => this.save()} />
+              <Button disable={!card_limit || parseFloat(card_limit) <= 0} text={'Save'} onPress={() => this.save()} />
 
             </View>
           </View>
@@ -112,7 +114,7 @@ export class SetSpendingLimit extends React.Component<CustProps> {
   // Should be updated to also call the api to update the data to the backend
   save() {
     let { card_limit } = this.state
-    if (card_limit && card_limit > 0) {
+    if (card_limit && parseFloat(card_limit) > 0) {
       let profile_data = this.props.store.profile_data
       profile_data.card_limit = this.state.card_limit
       this.props.updateStore(profile_data)

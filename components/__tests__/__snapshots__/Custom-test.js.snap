@@ -1,0 +1,1179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmountButton renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#e5faf0",
+      "borderRadius": 5,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 10,
+      "width": 100,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        Object {
+          "color": "#01d167",
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    S$ 0  
+  </Text>
+</View>
+`;
+
+exports[`AmountInput renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#D3D3D3",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "marginTop": 20,
+          "paddingBottom": 5,
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Array [
+          undefined,
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#01d167",
+            "borderRadius": 5,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingHorizontal": 10,
+            "width": 45,
+          },
+        ],
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+          },
+          Object {
+            "color": "white",
+            "fontFamily": "space-mono",
+            "fontSize": 16,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      S
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+          },
+          Object {
+            "color": "white",
+            "fontFamily": "space-mono",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      $
+    </Text>
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder=""
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "color": "#000",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        },
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`Button renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#01d167",
+      "borderRadius": 22,
+      "height": 45,
+      "justifyContent": "center",
+      "marginBottom": 25,
+      "marginTop": 10,
+      "opacity": 1,
+      "width": 250,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        Object {
+          "color": "white",
+          "fontSize": 18,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Card hidden number renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "alignItems": "center",
+        "borderBottomLeftRadius": 15,
+        "borderBottomRightRadius": 15,
+        "borderTopLeftRadius": 15,
+        "height": 447.6670870113493,
+        "maxHeight": 315.2585119798234,
+        "maxWidth": 500,
+        "width": 710,
+        "zIndex": 5,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "backgroundColor": "#01d167",
+          "borderRadius": 15,
+          "height": 447.6670870113493,
+          "justifyContent": "space-around",
+          "maxHeight": 315.2585119798234,
+          "maxWidth": 500,
+          "padding": 15,
+          "width": 710,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            },
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+            },
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 25,
+              "tintColor": "white",
+              "width": 25,
+            }
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+              },
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
+          }
+        >
+          aspire
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+          },
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 25,
+              "fontWeight": "bold",
+            },
+            Object {
+              "marginTop": 10,
+            },
+          ],
+        ]
+      }
+      testID="DebitCard.CardName"
+    >
+      Nandha Kumar 
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 20,
+              "maxWidth": 300,
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        ****
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        ****
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        ****
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        9843
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 18,
+              },
+              Object {
+                "marginTop": 20,
+              },
+            ],
+          ]
+        }
+      >
+        Thru: 12/22
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 18,
+              },
+              Object {
+                "marginLeft": 25,
+                "marginTop": 20,
+              },
+            ],
+          ]
+        }
+      >
+        CVV: ***
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            },
+          ],
+        ]
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 20,
+            "marginRight": 10,
+            "width": 70,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Card renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "alignItems": "center",
+        "borderBottomLeftRadius": 15,
+        "borderBottomRightRadius": 15,
+        "borderTopLeftRadius": 15,
+        "height": 447.6670870113493,
+        "maxHeight": 315.2585119798234,
+        "maxWidth": 500,
+        "width": 710,
+        "zIndex": 5,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "backgroundColor": "#01d167",
+          "borderRadius": 15,
+          "height": 447.6670870113493,
+          "justifyContent": "space-around",
+          "maxHeight": 315.2585119798234,
+          "maxWidth": 500,
+          "padding": 15,
+          "width": 710,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            },
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+            },
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+            ],
+          ]
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 25,
+              "tintColor": "white",
+              "width": 25,
+            }
+          }
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+              },
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
+          }
+        >
+          aspire
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+          },
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 25,
+              "fontWeight": "bold",
+            },
+            Object {
+              "marginTop": 10,
+            },
+          ],
+        ]
+      }
+      testID="DebitCard.CardName"
+    >
+      Nandha Kumar 
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 20,
+              "maxWidth": 300,
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        8374
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        0975
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        3456
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        9843
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 18,
+              },
+              Object {
+                "marginTop": 20,
+              },
+            ],
+          ]
+        }
+      >
+        Thru: 12/22
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 18,
+              },
+              Object {
+                "marginLeft": 25,
+                "marginTop": 20,
+              },
+            ],
+          ]
+        }
+      >
+        CVV: 432
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            },
+          ],
+        ]
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 20,
+            "marginRight": 10,
+            "width": 70,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CurrencyBadge renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Array [
+        undefined,
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#01d167",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingHorizontal": 10,
+          "width": 45,
+        },
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        Object {
+          "color": "white",
+          "fontFamily": "space-mono",
+          "fontSize": 16,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    S
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        Object {
+          "color": "white",
+          "fontFamily": "space-mono",
+          "fontSize": 20,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    $
+  </Text>
+</View>
+`;
+
+exports[`Header renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "backgroundColor": "transparent",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          undefined,
+        ]
+      }
+    />
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 25,
+          "width": 25,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+        },
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          },
+          Object {
+            "marginTop": 20,
+          },
+        ],
+      ]
+    }
+  >
+    undefined 
+  </Text>
+</View>
+`;
+
+exports[`MenuOption renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginTop": 20,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#325baf",
+          "borderRadius": 20,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 40,
+        },
+      ]
+    }
+  >
+    <Text />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+          },
+          Array [
+            Object {
+              "color": "grey",
+            },
+            Object {
+              "marginTop": 0,
+            },
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`ProgressIndicator renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+          },
+          undefined,
+        ]
+      }
+    >
+      Test Indicator
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Object {
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "#01d167",
+            },
+          ]
+        }
+      >
+        $10
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            Object {
+              "color": "grey",
+            },
+          ]
+        }
+      >
+         | $100
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+        },
+        Object {
+          "flexDirection": "row",
+          "marginTop": 10,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Object {
+            "borderBottomLeftRadius": 20,
+            "borderBottomRightRadius": 0,
+            "borderRightColor": "#e5faf0",
+            "borderRightWidth": 10,
+            "borderTopColor": "#01d167",
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 0,
+            "borderTopWidth": 20,
+            "maxWidth": 710,
+            "width": 284,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          Object {
+            "backgroundColor": "#e5faf0",
+            "borderBottomRightRadius": 20,
+            "borderTopRightRadius": 20,
+            "height": 20,
+            "width": 426,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;

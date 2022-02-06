@@ -43,6 +43,13 @@ type CustomProps = {
   keyboard?: KeyboardTypeOptions | undefined;
   name?: any;
   size?: number;
+  switchTestId?: string;
+  disable?: boolean | undefined;
+  profile_data?: any;
+  hide_card_details?: boolean;
+  spend_percent?: number;
+  completed?: string;
+  total?: string;
 };
 
 type CustomTextProps = {
