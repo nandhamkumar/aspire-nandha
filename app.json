@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "aspire-nandha",
+    "name": "Aspire Nandha",
+    "privacy": "public",
     "slug": "aspire-nandha",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "aspirenandha",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",

@@ -12,6 +12,8 @@
   
   Used Redux & Typescript as per the requirement. Also implemented basic snapshot unit testing
 
+  Click [here](https://expo.dev/@nandhamkumar/aspire-nandha) to try the app on Expo.
+
   ## Debit Card Screen
   Implemented the desgin provided with the below functionalities:
   1. Hiding and showing card details - First 12 digits of the card number and all 3 digits of CVV will be masked when the user selects hide  
